@@ -1,0 +1,15 @@
+.delete {
+  background-color: red;
+}
+
+.edit {
+  background-color: blue;
+}
+
+.add-user {
+  background-color: green;
+}
+
+.margin {
+  margin-right: 20rem;
+}

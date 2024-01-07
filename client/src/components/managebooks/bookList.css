@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+body {
+  background-color: #add9e6;
+}
+
+.book-list-h1 {
+  font-family: "Megrim", sans-serif;
+  font-size: 3rem;
+  color: white;
+
+  text-align: center;
+  position: relative;
+  word-spacing: 3px;
+
+  padding: 2rem;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 3rem;
+}
+
+.link {
+  display: block;
+
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.link-user {
+  display: block;
+
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  margin-right: 17rem;
+}
+
+.bookId {
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  margin-right: 18rem;
+  margin-left: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #01008c;
+  text-align: center;
+  align-items: center;
+  width: 1300px;
+}
+
+.add-book-button {
+  display: flex;
+  width: 15rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: red;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  transform: skewX(-20deg);
+  display: flex;
+  transition: all 0.5s;
+}
+
+.card-user {
+  background: white;
+  box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  transform: skewX(-20deg);
+  display: flex;
+  transition: all 0.5s;
+  justify-content: space-around;
+}
+
+.card:hover {
+  transform: skewX(-20deg) scale(1.05);
+  box-shadow: 0 3rem 6rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.add-book {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}

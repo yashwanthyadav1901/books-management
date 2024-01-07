@@ -1,0 +1,37 @@
+.secondary-heading {
+  background-color: blue;
+  font-family: sans-serif;
+  color: white;
+  padding: 1rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-left: 4rem;
+  font-weight: bold;
+}
+
+.books-text-input {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.create-book-button {
+  font-size: 1rem;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  width: 13rem;
+  cursor: pointer;
+  margin: 1rem;
+}
